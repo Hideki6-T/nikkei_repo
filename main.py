@@ -5,8 +5,9 @@ def sub(a, b):
     return a - b
 
 def main():
-    print(add(2, 3))
-    print(sub(2, 1))
+    a, b = 1, 2
+    print(f"{a}と{b}を足すと{add(a, b)}です。")
+    print(f"{b}から{a}を引くと{sub(b, a)}です。")
 
 if __name__ == '__main__':
     main()
